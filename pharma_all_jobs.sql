@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 16, 2018 at 09:12 AM
+-- Generation Time: Aug 18, 2018 at 09:42 AM
 -- Server version: 10.1.25-MariaDB
 -- PHP Version: 5.6.31
 
@@ -141,7 +141,13 @@ CREATE TABLE `user_registration` (
 
 INSERT INTO `user_registration` (`userid`, `username`, `profilename`, `profileheading`, `mobilenumber`, `email`, `password`, `status`) VALUES
 (1, 'grubbing', 'Bibb', 'WBC WNBA', 0, 'coach', 'we NFC', 'wsbcws'),
-(2, 'grubbing', 'Bibb', 'WBC WNBA', 475242432, 'Chubb', 'fhvgjh', 'winces');
+(2, 'grubbing', 'Bibb', 'WBC WNBA', 475242432, 'Chubb', 'fhvgjh', 'winces'),
+(3, 'gjfnhfg', 'fghnfgvb', 'fgnhjfcgv', 2147483647, 'Bibb', 'tthryrt', 'ryhrtfg'),
+(4, 'dcgjhncfg', 'bdgsfdx', 'asdfghjkl', 2147483647, 'asfdsx@gmail.com', 'fhfghnjr', 'fjty'),
+(5, 'dcgjhncfg', 'bdgsfdx', 'asdfghjkl', 2147483647, 'asfdsx@gmail.com', 'fhfghnjr', 'fjty'),
+(6, 'fgjhfg', 'dfhjnfg', 'dhgndf', 2147483647, 'zdgb@hbv.com', 'hfjs34!@', 'erhy'),
+(7, 'Edith', 'ehjhut', 'rthtfrj', 2147483647, 'sdg@dfb.fy', 'ewrgh65!', 'cgj'),
+(8, 'video', 'audio', 'heading', 2147483647, 'vidhi@yahoo.com', 'Vidhi0!', '00');
 
 --
 -- Indexes for dumped tables
@@ -214,7 +220,7 @@ ALTER TABLE `tbl_resume`
 -- AUTO_INCREMENT for table `user_registration`
 --
 ALTER TABLE `user_registration`
-  MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- Constraints for dumped tables
 --
